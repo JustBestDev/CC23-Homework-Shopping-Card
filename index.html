@@ -32,7 +32,11 @@
         </div>
         <div class=" flex items-center font-bold text-xl gap-8">
             <button class="text-gray-500"><i class="fa-solid fa-magnifying-glass"></i></button>
-            <button class="text-gray-500"><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="relative">
+                <div class="absolute bg-red-500 size-4 rounded-full left-4.5 bottom-4.5 text-xs font-light text-white text-center">1</div>
+                <div class="absolute bg-red-500 size-4 animate-ping rounded-full left-4.5 bottom-4.5"></div>
+                <button class="text-gray-500"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
             <button
                 class="transition delay-50 duration-150 ease-in-out hover:translate-y-1 hover:scale-110 hover:bg-gray-400 rounded-3xl px-4 py-2">LOGIN</button>
             <button
